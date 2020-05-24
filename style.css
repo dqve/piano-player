@@ -66,4 +66,19 @@ body{
   margin: 0 auto;
   margin-top: 75px;
 }
+#lyrics{
+  width: 400px;
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  margin-top: 50px;
+  background-color: #fd4d3f;
+}
+#column-one, #column-two, #column-three, #column-four, #column-five, #column-six, #column-optional{
+  width: 90px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
 
