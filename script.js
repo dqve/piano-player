@@ -22,3 +22,18 @@ const note = (note) => {
 
 // Write a loop that runs the array elements through the function
 notes.forEach(note);
+
+
+// These variables store the buttons that progress the user through the lyrics
+let nextOne = document.getElementById('first-next-line');
+let nextTwo = document.getElementById('second-next-line');
+let nextThree = document.getElementById('third-next-line');
+let startOver = document.getElementById('fourth-next-line');
+
+// This variable stores the '-END' lyric element
+let lastLyric = document.getElementById('column-optional');
+
+// These statements are "hiding" all the progress buttons, but the first one
+nextTwo.hidden = true;
+nextThree.hidden = true;
+startOver.hidden= true;
