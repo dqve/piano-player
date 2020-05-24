@@ -4,3 +4,21 @@ body{
   font-family: sans-serif;
   background: #ffc63f;
 }
+.title{
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+  color: #141c3a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#demo{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #141c3a;
+  letter-spacing: 1px;
+  font-style: italic;
+}
