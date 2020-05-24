@@ -22,3 +22,30 @@ body{
   letter-spacing: 1px;
   font-style: italic;
 }
+.piano{
+  width: 305px;
+  height: 210px;
+  display: block;
+  margin: 0 auto;
+  background-color: #fd4d3f;
+  margin-top: 30px;
+}
+.key{
+  width: 30px;
+  height: 200px;
+  display: inline-block;
+  border: solid #141c3a 2px;
+  box-shadow: 2px 5px;
+  background-color: white;
+  color: #141c3a;
+}
+.black-key{
+  width: 25px;
+  height: 100px;
+  display: inline-block;
+  background-color: #141c3a;
+  color: white;
+  position: absolute;
+  margin-left: -12px;
+  padding: 0px;
+}
