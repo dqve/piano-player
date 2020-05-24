@@ -15,9 +15,9 @@ const keyReturn = (event) => {
 }
 
 // Write a named function with event handler properties
-const note = (note) => {
-    note.onmousedown = keyPlay
-    note.onmouseup = keyReturn
+const note = (key) => {
+    key.onmousedown = keyPlay
+    key.onmouseup = keyReturn
 }
 
 // Write a loop that runs the array elements through the function
