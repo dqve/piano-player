@@ -60,12 +60,15 @@ nextTwo.onclick = function(){
 
 // Write anonymous event handler property and function for the third progress button
 nextThree.onclick = function(){
-  nextThree.hidden = false
-  nextTwo.hidden = true
-  document.getElementById("word-five").innerHTML = "DEAR"
-  document.getElementById("word-six").innerHTML = "FRI-"
-
-
+  startOver.hidden = false
+  nextThree.hidden = true
+  document.getElementById("word-one").innerHTML = "HAP-"
+  document.getElementById("word-two").innerHTML = "PY"
+  document.getElementById("word-three").innerHTML = "BIRTH"
+  document.getElementById("word-four").innerHTML = "DAY"
+  document.getElementById("word-five").innerHTML = "TO"
+  document.getElementById("word-six").innerHTML = "YOU!"
+}
 // This is the event handler property and function for the startOver button
 startOver.onclick = function() {
   nextOne.hidden = false;
